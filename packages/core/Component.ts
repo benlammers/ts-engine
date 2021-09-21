@@ -1,4 +1,4 @@
-import { GameObject } from '../game/GameObject';
+import { GameObject } from './GameObject';
 
 export class Component {
    // @ts-ignore

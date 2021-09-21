@@ -1,4 +1,4 @@
-import { GameObject } from '../game/GameObject';
+import { GameObject } from '../core/GameObject';
 
 export class RenderEngine {
    private canvas: HTMLCanvasElement;
