@@ -1,8 +1,8 @@
 import { Game } from './Game';
-import { AudioEngine } from '../engines/AudioEngine';
-import { Material } from '../components/Material';
-import { Transform } from '../components/Transform';
-import { Text } from '../components/Text';
+import { AudioEngine } from './AudioEngine';
+import { Material } from './Material';
+import { Transform } from './Transform';
+import { Text } from './Text';
 
 export class GameObject {
    public id = Object.toString();

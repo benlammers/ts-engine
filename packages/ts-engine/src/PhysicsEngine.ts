@@ -1,5 +1,5 @@
-import { GameObject } from '../core/GameObject';
-import { Vector2 } from '../core/Vector2';
+import { GameObject } from './GameObject';
+import { Vector2 } from './Vector2';
 
 export class PhysicsEngine {
    private currentCollisions = new CollisionList();

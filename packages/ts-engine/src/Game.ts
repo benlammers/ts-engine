@@ -1,7 +1,7 @@
-import { AudioEngine } from '../engines/AudioEngine';
-import { InputEngine } from '../engines/InputEngine';
-import { PhysicsEngine } from '../engines/PhysicsEngine';
-import { RenderEngine } from '../engines/RenderEngine';
+import { AudioEngine } from './AudioEngine';
+import { InputEngine } from './InputEngine';
+import { PhysicsEngine } from './PhysicsEngine';
+import { RenderEngine } from './RenderEngine';
 
 import { GameObject } from './GameObject';
 
