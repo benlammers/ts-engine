@@ -2,7 +2,6 @@
   "name": "ts-engine-project",
   "private": true,
   "devDependencies": {
-    "lerna": "^4.0.0",
     "prettier": "^2.4.1"
   }
 }
