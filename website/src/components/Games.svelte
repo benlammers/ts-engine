@@ -1,8 +1,6 @@
 <script>
     import { Link } from "svelte-navigator";
-import Snake from "../pages/Snake.svelte";
-import Section from "./Section.svelte";
-
+    import Section from "./Section.svelte";
 </script>
 
 
@@ -10,12 +8,7 @@ import Section from "./Section.svelte";
     <h2>Games</h2>
     <div class="games">
         <Link to="/snake">
-            <div class="card" id="snake">
-                <img src="images/snake.png" alt="Snake start menu" />
-            </div>
-        </Link>
-        <Link to="/snake">
-            <div class="card" id="snake">
+            <div class="card">
                 <img src="images/snake.png" alt="Snake start menu" />
             </div>
         </Link>
@@ -25,11 +18,12 @@ import Section from "./Section.svelte";
 <style lang="scss">
     .games {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+        justify-items: center;
         column-gap: 4rem;
         row-gap: 4rem;
         margin-top: 2rem;
-        margin-bottom: 10rem;
+        margin-bottom: 4rem;
     }
 
     .card {
@@ -38,6 +32,7 @@ import Section from "./Section.svelte";
         border-radius: 10px;
         height: 24rem;
         overflow: hidden;
+        max-width: 36rem;
     }
     
     img {
@@ -48,9 +43,8 @@ import Section from "./Section.svelte";
     
     @media only screen and (max-width: 1080px) {
         .games {
-            grid-template-columns: 1fr;
             column-gap: 4rem;
-            padding: 0 4rem;
+            padding: 0 8rem;
         }
 
     }

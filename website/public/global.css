@@ -1,6 +1,7 @@
 :root {
    --color-font: #2f2d2a;
-   --color-gray: rgba(229, 229, 229, 0.5);
+   --color-gray--1: rgba(229, 229, 229, 0.5);
+   --color-gray--2: rgba(229, 229, 229, 0.8);
    --color-tan: rgba(241, 217, 182, 0.5);
    --color-orange: rgba(234, 153, 34, 0.8);
 

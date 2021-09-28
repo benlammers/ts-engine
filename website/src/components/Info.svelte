@@ -4,13 +4,13 @@
 
 <Section bg="var(--color-tan)">
     <h2>Creation</h2>
-    <p>Veniam reprehenderit dolor voluptate duis non est fugiat labore. Laborum labore labore ullamco consectetur nisi ut eiusmod cupidatat sunt pariatur consequat laboris voluptate magna. Aliquip ut voluptate ullamco in ullamco velit nulla nulla ad in culpa et qui. Aute dolore dolor voluptate laborum labore et. Veniam reprehenderit dolor voluptate duis non est fugiat labore. Laborum labore labore ullamco consectetur nisi ut eiusmod cupidatat sunt pariatur consequat laboris voluptate magna. Aliquip ut voluptate ullamco in ullamco velit nulla nulla ad in culpa et qui. Aute dolore dolor voluptate laborum labore et.</p>
+    <p>During my studies at Queen's University I took a Game Development course taught by Nicholas Graham. In this course we looked at a simple game engine developed using Java and Java AWT. I was intrigued by this and being a web developer decided to create one for the web. I used Typescript and browser APIs and this is the result. TS Engine is a very simple engine supporting only text and rectangular shapes. It is by no means robust or complete but has been enjoyable to create.</p>
     <span>npm install ts-engine</span>
 </Section>
 
 <style lang="scss">
     span {
-        background-color: var(--color-gray);
+        background-color: var(--color-gray--1);
         font-weight: 400;
         padding: 0.4rem 0.8rem;
         box-shadow: var(--shadow-tan--1);

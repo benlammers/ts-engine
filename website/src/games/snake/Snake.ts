@@ -101,7 +101,8 @@ export class Snake extends GameObject {
       this.transform.size = new Vector2(20, 20);
       this.transform.depth = 3;
 
-      this.material.color = 'darkgreen';
+      // color-orange
+      this.material.color = 'rgba(234, 153, 34, 0.9)';
       this.name = 'snake';
    }
 }
@@ -133,7 +134,8 @@ export class SnakeBody extends GameObject {
 
    public constructor(lead: Snake | SnakeBody) {
       super();
-      this.material.color = 'green';
+      // color-tan
+      this.material.color = 'rgba(241, 217, 182, 0.7)';
       this.name = 'snakebody';
       this.number = GameController.Instance.score;
       this.transform.size = new Vector2(lead.transform.size.x, lead.transform.size.y);
