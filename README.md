@@ -13,7 +13,7 @@ The purpose of this repository was to have fun building a simple game engine on 
 
 ## Description
 
-During my studies at Queen's University I took a Game Development course taught by Nicholas Graham. In this course we looked at a simple game engine developed using Java and Java AWT. I was intrigued by this and being a web developer decided to create one for the web. I used Typescript and browser APIs and this is the result. TS Engine is a very simple engine supporting only text and rectangular shapes. It is by no means robust or complete but has been enjoyable to create.
+During my studies at Queen's University I took a Game Development course taught by Nicholas Graham. In this course we looked at a simple game engine developed using Java and Java AWT. I was intrigued by this and being a web developer decided to translate the Java engine for the web. I used Typescript and browser APIs and this is the result. TS Engine is a very simple engine supporting only text and rectangular shapes. It is by no means robust or complete but has been enjoyable to create.
 
 This repository contains the NPM package TS Engine containing the simple game engine as well as a Svelte app that showcases a game made using the engine.
 
