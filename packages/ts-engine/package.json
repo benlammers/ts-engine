@@ -1,7 +1,7 @@
 {
   "name": "ts-engine",
   "author": "benlammers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Very simple 2D game engine for making games in the browser",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

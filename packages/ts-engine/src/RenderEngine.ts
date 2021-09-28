@@ -5,7 +5,7 @@ export class RenderEngine {
    private ctx: CanvasRenderingContext2D;
 
    private background: string;
-   private sceneGraph: GameObject[] = [];
+   private gameObjects: GameObject[] = [];
 
    public constructor(windowWidth: number, windowHeight: number, canvasId: string, background: string) {
       let canvas = <HTMLCanvasElement>document.getElementById(canvasId);
@@ -21,19 +21,19 @@ export class RenderEngine {
    }
 
    public renderScene(gameObjects: GameObject[]) {
-      this.sceneGraph = [...gameObjects].sort((g1, g2) => g1.transform.depth - g2.transform.depth);
+      this.gameObjects = [...gameObjects].sort((g1, g2) => g1.transform.depth - g2.transform.depth);
       this.updateCanvas();
    }
 
    private renderTransforms() {
-      for (let go of this.sceneGraph) {
+      for (let go of this.gameObjects) {
          this.ctx.fillStyle = go.material.color;
          this.ctx.fillRect(go.transform.position.x, go.transform.position.y, go.transform.size.x, go.transform.size.y);
       }
    }
 
    private renderText() {
-      for (let go of this.sceneGraph) {
+      for (let go of this.gameObjects) {
          for (let text of go.text) {
             this.ctx.textAlign = text.align;
             this.ctx.font = text.font;

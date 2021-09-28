@@ -22,8 +22,4 @@ export class Text extends Component {
       this.color = color;
       this.align = align;
    }
-
-   public toString() {
-      return this.text;
-   }
 }

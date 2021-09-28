@@ -32,8 +32,4 @@ export class GameObject {
    public onCollisionEnter(col: GameObject) {}
    // @ts-ignore
    public onCollisionExit(col: GameObject) {}
-
-   public toString = () => {
-      return this.name;
-   };
 }

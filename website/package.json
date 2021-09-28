@@ -30,6 +30,6 @@
   "dependencies": {
     "sirv-cli": "^1.0.0",
     "svelte-navigator": "^3.1.5",
-    "ts-engine": "^1.0.0"
+    "ts-engine": "^1.0.1"
   }
 }

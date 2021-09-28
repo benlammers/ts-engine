@@ -12,8 +12,4 @@ export class Transform extends Component {
       this.size = new Vector2(0, 0);
       this.depth = 0;
    }
-
-   public toString = () => {
-      return this.position + '@' + this.depth;
-   };
 }

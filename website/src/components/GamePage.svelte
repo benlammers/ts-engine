@@ -2,7 +2,6 @@
     import { Link } from "svelte-navigator";
     import Gears from "./Gears.svelte";
 
-    export let title: string;
     let innerWidth;
 </script>
 

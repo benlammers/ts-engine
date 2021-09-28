@@ -9,7 +9,7 @@
     afterUpdate(() => SnakeGame.main())
  </script>
  
-<GamePage title="Snake">
+<GamePage>
     <canvas id="snake" slot="game" />
     <GameInfo 
         slot="game-info" 
