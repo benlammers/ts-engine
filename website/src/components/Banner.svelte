@@ -13,7 +13,7 @@
         <Gears width={innerWidth > 768 ? 50 : innerWidth > 450 ? 80 : 110} speed={24} />
     </div>
 
-    <a class="github" href="https://github.com/benlammers/ts-engine" target="_blank" rel="noopener">
+    <a class="github" href="https://github.com/benlammers/ts-engine/tree/main/packages/ts-engine" target="_blank" rel="noopener">
         <GithubIcon size={innerWidth > 768 ? 3.6 : 3 } />
     </a>
 
